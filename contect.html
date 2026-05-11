@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OneStopShop contect us</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h2> <span>One</span>StopShop</h2>
+        </div>
+        <div class="navlinks">
+            <a href="./index.html">HOME</a>
+            <a href="./product.html">PRODUCTS</a>
+            <a href="./contect.html">CONTECT US</a>
+            <a href="./about.html">ABOUT US</a>
+            <a href="./servises.html">SERVISES</a>
+        </div>
+
+        <div class="btn-group">
+            <button>log in</button>
+            <i class="bi bi-cart4"></i>
+        </div>
+    </header>
+
+    <div class="title">
+        <h1>Everything You Need in One Place</h1>
+        <p>OneStopShop provides a wide range of products across multiple categories. Enjoy a smooth shopping experience
+            with trusted quality and great deals.</p>
+
+    </div>
+
+    <div class="contact-conteiner">
+        <div class="contact-info">
+            <h3>We’re Here to Help</h3>
+            <p><i class="bi bi-geo-alt"></i><b>Address:</b>Sanjay Nagar, Jahangirpuri, Delhi 110033, India</p>
+            <p><i class="bi bi-telephone"></i><b>Phone:</b>098117 31929</p>
+            <p><i class="bi bi-envelope"></i><b>Email:</b>osssale21@yahoo.com</p>
+            <p><i class="bi bi-calendar-heart-fill"></i><b>Working Hours:</b>Open 24 Hours (according to listing)
+                BharatiBiz</p>
+
+        </div >
+
+        <div class="contact-img">
+            <img src="11shop.webp" alt="">
+       </div>
+ </div>
+
+ <div class="map-container">
+    <h2>FIND US HERE</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.9092395593243!2d77.16333557409837!3d28.722258280002936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d015be32c9ef1%3A0x9e9df4ce3daad050!2sRakesh%20Handloom!5e0!3m2!1sen!2sin!4v1766734693891!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+ </div>
+
+ <!-- form -->
+
+ <div class="form-box">
+    <h2>Contact Form</h2>
+
+    <form id="contactForm">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" id="name">
+        <span class="error" id="nameError">Name is required</span>
+      </div>
+
+      <div class="form-group">
+        <label>Email</label>
+        <input type="email" id="email">
+        <span class="error" id="emailError">Valid email required</span>
+      </div>
+
+      <div class="form-group">
+        <label>Message</label>
+        <textarea id="message" rows="4"></textarea>
+        <span class="error" id="msgError">Message is required</span>
+      </div>
+
+      <button type="submit">Submit</button>
+      <p class="success" id="successMsg">Form submitted successfully!</p>
+    </form>
+  </div>
+
+
+ <footer>
+    <div class="row">
+        <div class="col col-1">
+            <h3>About us</h3>
+            <p>A "One Stop Shop" (OSS) is a business or service model providing all necessary products, services, or solutions in a single location or platform, eliminating the need to go elsewhere, simplifying tasks for customers</p>
+        </div>
+
+        <div class="col col-2">
+            <h3>Quick links</h3>
+            <a href="./index.html">home</a>
+            <a href="./about.html">about as</a>
+            <a href="./product.html">products</a>
+            <a href="./faqs">FAQ</a>
+            <a href="./index.html">privacy policy</a>
+
+        </div>
+
+        <div class="col">
+             <h3>contect info</h3>
+             <p>address:Sanjay Nagar, Jahangirpuri, Delhi 110033, India</p>
+             <p>phone:098117 31929</p>
+             <p>Email:osssale21@yahoo.com</p>
+        </div>
+
+        <div class="col">
+            <h3>follow us</h3>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-whatsapp"></i>
+            <i class="bi bi-twitter-x"></i>
+            <i class="bi bi-youtube"></i>
+         </div>
+      </div>
+      <hr>
+      <p>© 2025 OneStopShop | All-in-One Shopping Solution | Designed with ❤️ in India</p>
+ </footer>
+
+
+ <script>
+    // form
+
+ const form = document.getElementById("contactForm");
+
+    form.addEventListener("submit", function(e){
+      e.preventDefault();
+
+      let valid = true;
+
+      // Name validation
+      const name = document.getElementById("name").value.trim();
+      if(name === ""){
+        document.getElementById("nameError").style.display = "block";
+        valid = false;
+      } else {
+        document.getElementById("nameError").style.display = "none";
+      }
+
+      // Email validation
+      const email = document.getElementById("email").value.trim();
+      if(email === "" || !email.includes("@")){
+        document.getElementById("emailError").style.display = "block";
+        valid = false;
+      } else {
+        document.getElementById("emailError").style.display = "none";
+      }
+
+      // Message validation
+      const msg = document.getElementById("message").value.trim();
+      if(msg === ""){
+        document.getElementById("msgError").style.display = "block";
+        valid = false;
+      } else {
+        document.getElementById("msgError").style.display = "none";
+      }
+
+      if(valid){
+        document.getElementById("successMsg").style.display = "block";
+        form.reset();
+      }
+    });
+ </script>
+
+</body>
+
+</html>
