@@ -7,11 +7,11 @@ const products = [
     rating: 4.5,
     stock: 20,
     description: "Noise-cancelling wireless headphones with deep bass.",
-    image: "images/02shop.webp",
+    image: "02shop.webp",
     gallery: [
-      "images/2.1shop.webp",
-      "images/2.2shop.webp",
-      "images/2.3shop.webp"
+      "2.1shop.webp",
+      "2.2shop.webp",
+      "2.3shop.webp"
     ],
     
   },
@@ -23,11 +23,11 @@ const products = [
     rating: 4.3,
     stock: 15,
     description: "Fitness smart watch with heart-rate monitor.",
-    image: "images/03shop.webp",
+    image: "03shop.webp",
     gallery: [
-      "images/3.1shop.webp",
-      "images/3.2shop.webp",
-      "images/3.3shop.webp"
+      "3.1shop.webp",
+      "3.2shop.webp",
+      "3.3shop.webp"
     ]
   },
   {
@@ -38,11 +38,11 @@ const products = [
     rating: 4.6,
     stock: 30,
     description: "Lightweight and comfortable running shoes.",
-    image: "images/04shop.webp",
+    image: "04shop.webp",
     gallery: [
-      "images/4.1shop.webp",
-      "images/4.2shop.webp",
-      "images/4.3shop.webp"
+      "4.1shop.webp",
+      "4.2shop.webp",
+      "4.3shop.webp"
     ]
   },
   {
@@ -53,11 +53,11 @@ const products = [
     rating: 4.2,
     stock: 25,
     description: "Waterproof backpack for travel and college.",
-    image: "images/05shop.webp",
+    image: "05shop.webp",
     gallery: [
-      "images/5.1shop.webp",
-      "images/5.2shop.webp",
-      "images/5.3shop.webp"
+      "5.1shop.webp",
+      "5.2shop.webp",
+      "5.3shop.webp"
     ]
   },
   {
@@ -68,11 +68,11 @@ const products = [
     rating: 4.4,
     stock: 18,
     description: "Portable Bluetooth speaker with powerful sound.",
-    image: "images/06shop.webp",
+    image: "06shop.webp",
     gallery: [
-      "images/6.1shop.webp",
-      "images/6.2shop.webp",
-      "images/6.3shop.webp"
+      "6.1shop.webp",
+      "6.2shop.webp",
+      "6.3shop.webp"
     ]
   },
   {
@@ -83,11 +83,11 @@ const products = [
     rating: 4.1,
     stock: 50,
     description: "Stylish UV-protected sunglasses.",
-    image: "images/07shop.webp",
+    image: "07shop.webp",
     gallery: [
-      "images/7.1shop.webp",
-      "images/7.2shop.webp",
-      "images/7.3shop.webp"
+      "7.1shop.webp",
+      "7.2shop.webp",
+      "7.3shop.webp"
     ]
   },
    {
@@ -98,11 +98,11 @@ const products = [
     rating: 4.3,
     stock: 25,
     description: "10000mAh fast charging power bank",
-    image: "images/08shop.webp",
+    image: "08shop.webp",
     gallery: [
-      "images/8.1shop.webp",
-      "images/8.2shop.webp",
-      "images/8.3shop.webp"
+      "8.1shop.webp",
+      "8.2shop.webp",
+      "8.3shop.webp"
     ]
   },
    {
@@ -113,11 +113,11 @@ const products = [
     rating: 4.6,
     stock: 18,
     description: "RGB gaming mouse",
-    image: "images/09shop.webp",
+    image: "09shop.webp",
     gallery: [
-      "images/9.1shop.webp",
-      "images/9.2shop.webp",
-      "images/9.3shop.webp"
+      "9.1shop.webp",
+      "9.2shop.webp",
+      "9.3shop.webp"
     ]
   },
   {
@@ -128,11 +128,11 @@ const products = [
     rating: 4.1,
     stock: 9,
     description: "HD webcam for online meetings",
-    image: "images/10shop.webp",
+    image: "10shop.webp",
     gallery: [
-      "images/10.1shop.webp",
-      "images/10.2shop.webp",
-      "images/10.3shop.webp"
+      "10.1shop.webp",
+      "10.2shop.webp",
+      "10.3shop.webp"
     ]
   },
 ];
